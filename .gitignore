@@ -1,0 +1,42 @@
+/target
+refs/
+
+# ---------------------------------------------------------------
+# macOS junk
+# ---------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+Icon?
+.fseventsd
+.TemporaryItems
+
+# ---------------------------------------------------------------
+# Compiler caches
+# ---------------------------------------------------------------
+/.ccache/
+.ccache/
+ccache/
+sccache/
+
+# ---------------------------------------------------------------
+# Editors
+# ---------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+tags
+TAGS
+.eta/
+harrier/
+
+# generated model artifacts (see vendor/harrier/gen/)
+vendor/harrier/weights.bin
+vendor/harrier/weights.bin.layout.txt
+vendor/harrier/tokenizer.bin
